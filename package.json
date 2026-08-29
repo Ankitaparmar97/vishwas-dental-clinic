@@ -1,0 +1,49 @@
+{
+  "name": "my-clinic",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .ts,.tsx",
+    "lint:fix": "eslint . --ext .ts,.tsx --fix",
+    "lint:naming": "eslint . --rule 'check-file/filename-naming-convention:error' --ext .ts,.tsx",
+    "tsc": "tsc",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check": "npm run type-check && npm run lint && npm run format:check",
+    "clean": "rm -rf dist .tsbuildinfo"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.1.1",
+    "@mui/material": "^7.1.2",
+    "framer-motion": "^12.23.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-material-ui-carousel": "^3.4.2",
+    "react-router-dom": "^7.6.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@types/react-router-dom": "^5.3.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.30.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-check-file": "^3.3.0",
+    "eslint-plugin-prettier": "^5.5.1",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "eslint-plugin-react-x": "^1.52.2",
+    "globals": "^15.15.0",
+    "prettier": "^3.6.2",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.35.0",
+    "vite": "^6.2.0"
+  }
+}
