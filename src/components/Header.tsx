@@ -50,7 +50,7 @@ export default function ResponsiveAppBar({ toggleDrawer }: HeaderProps) {
                   lineHeight: 1.1,
                 }}
               >
-                BHAVNAGAR
+                VISHWAS
               </Typography>
 
               <Typography
@@ -61,7 +61,7 @@ export default function ResponsiveAppBar({ toggleDrawer }: HeaderProps) {
                   opacity: 0.9,
                 }}
               >
-                DENTAL & IMPLANT CLINIC
+                DENTAL CLINIC
               </Typography>
             </Box>
           </Box>
